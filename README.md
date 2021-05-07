@@ -129,5 +129,5 @@ source code.
     > pull the source code for that particular recipe/manifest if the
     > intention is to work with that particular recipe
 
-4. **Refer [README.md](https://gitlab.devtools.intel.com/Indu/edge-insights-industrial/eii-core/-/blob/master/README.md) to provision, build and run EII stack**
+4. **Refer [eii-core repo README.md](https://github.com/open-edge-insights/eii-core/blob/master/README.md) to provision, build and run EII stack**
 
