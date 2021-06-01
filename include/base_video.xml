@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- EII core services -->
+   <include name="include/base_eii.xml" />
+
+   <!-- Start: EII services for video use case -->
+   <project name="video-common" path="IEdgeInsights/common/video" />
+   <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
+   <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
+   <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
+   <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
+   <project name="video-custom-udfs" path="IEdgeInsights/CustomUdfs" />
+   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <!-- End: EII services for video use case -->
+</manifest>

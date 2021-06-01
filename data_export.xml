@@ -6,4 +6,8 @@
    <!-- EII core services -->
    <include name="include/base_eii.xml" />
 
+   <!-- Start: EII services for dataexport use case -->
+   <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
+   <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <!-- End: EII services for dataexport use case -->
 </manifest>
