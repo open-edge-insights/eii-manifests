@@ -11,9 +11,5 @@
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
    <!-- End: Optional EII services for timeseries use case (Comment the ones not required) -->
-   
-   <!-- Start: EII Ingredient components -->
-   <project name="non-opensource/ingredients/manageability" path="manageability" />
-   <!-- End: EII Ingredient components -->
 
 </manifest>

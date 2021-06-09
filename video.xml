@@ -16,10 +16,4 @@
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
    <!-- End: Optional EII services for video use case (uncomment the ones required) -->
 
-   <!-- Start: EII Ingredient components -->
-   <project name="non-opensource/ingredients/manageability" path="manageability" />
-   <project name="non-opensource/ingredients/video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
-   <project name="non-opensource/ingredients/training-and-learning-suite" path="training-and-learning-suite" />
-   <!-- End: EII Ingredient components -->
-
 </manifest>

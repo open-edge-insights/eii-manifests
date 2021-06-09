@@ -1,0 +1,10 @@
+?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Start: EII time_series service -->
+   <include name="time_series.xml" />
+   <!-- End: EII time_series services -->
+
+   <!-- Start: EII Ingredient component -->
+   <include name="include/manageability.xml" />
+   <!-- End: EII Ingredient component -->
+</manifest>

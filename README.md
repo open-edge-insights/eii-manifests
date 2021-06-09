@@ -93,7 +93,7 @@ source code.
 
      * [default.xml](./default.xml): **All recipe (default)**:
 
-       Recipe has Vision + Timeseries + EII ingredient services
+       Recipe has Vision + Timeseries services
 
      * [core.xml](./core.xml): **Bare minimum recipe**
 
@@ -106,7 +106,19 @@ source code.
 
      * [time_series.xml](./time_series.xml): **Timeseries recipe**
 
-       Recipe has EII Bare minimum recipe + time series services
+       Recipe has EII Bare minimum recipe + time series services 
+
+     * [ingredients/default.xml](./ingredients/default.xml): **All recipe**:
+
+       Recipe has Vision + Timeseries + EII ingredient services
+
+     * [ingredients/video.xml](./ingredients/video.xml): **Vision recipe**
+
+       Recipe has EII Bare minimum recipe + vision services + EII ingredient services
+
+     * [ingredients/time_series.xml](./ingredients/time_series.xml): **Timeseries recipe**
+
+       Recipe has EII Bare minimum recipe + time series services + EII ingredient services
 
       > **NOTE**:
       > One can create his/her own manifest file with the combination of projects

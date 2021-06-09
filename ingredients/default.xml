@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Start: EII services -->
+   <include name="default.xml" />
+   <!-- End: EII services -->
+
+   <!-- Start: EII Ingredient components -->
+   <include name="include/manageability.xml" />
+   <include name="include/tls.xml" />
+   <!-- End: EII Ingredient components -->
+
+</manifest>
