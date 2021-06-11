@@ -8,6 +8,9 @@
    <!-- EII core service -->
    <project name="eii-core" path="IEdgeInsights"/>
 
+   <!-- EII EtcdUI service -->
+   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI"/>
+
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
    <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus"/>
