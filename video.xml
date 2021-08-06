@@ -3,29 +3,8 @@
    <remote name="origin" fetch="https://github.com/open-edge-insights" />
    <default revision="master" remote="origin" sync-j="4" />
 
-   <!-- EII and its ingredient docs -->
-   <project name="eii-docs" path="Docs">
-      <linkfile src="README.md" dest="README.md"/>
-   </project>
-
-   <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" />
-
-   <!-- EII core libraries -->
-   <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
-   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" />
-
-   <!-- EII Sample Apps -->
-   <project name="eii-samples" path="IEdgeInsights/Samples" />
-   <!-- Start: EII services for video use case -->
-   <project name="video-common" path="IEdgeInsights/common/video" />
-   <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
-   <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
-   <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
-   <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
-   <project name="video-custom-udfs" path="IEdgeInsights/CustomUdfs" />
-   <project name="eii-tools" path="IEdgeInsights/tools" />
-   <!-- End: EII services for video use case -->
+    <!-- EII core services with video use case -->
+   <include name="include/base_video.xml" />
 
    <!-- Start: Optional EII services for video use case (Comment the ones not required) -->
    <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />

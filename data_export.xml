@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="origin" fetch="https://github.com/open-edge-insights" />
+   <default revision="master" remote="origin" sync-j="4" />
+
+  <!-- EII core services -->
+   <include name="include/base_eii.xml" />
+
+   <!-- Start: EII services for dataexport use case -->
+   <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
+   <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <!-- End: EII services for dataexport use case -->
+</manifest>

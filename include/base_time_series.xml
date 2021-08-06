@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- EII core services -->
+   <include name="include/base_eii.xml" />
+
+   <!-- Start: EII services for timeseries use case -->
+   <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
+   <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
+   <project name="ts-grafana" path="IEdgeInsights/Grafana" />
+   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <!-- End: EII services for timeseries use case -->
+</manifest>

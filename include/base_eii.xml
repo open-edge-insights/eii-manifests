@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- EII and its ingredient docs -->
+   <project name="eii-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project>
+
+   <!-- EII core service -->
+   <project name="eii-core" path="IEdgeInsights"/>
+
+   <!-- EII EtcdUI service -->
+   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI"/>
+
+   <!-- EII core libraries -->
+   <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
+   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus"/>
+
+   <!-- EII Sample Apps -->
+   <project name="eii-samples" path="IEdgeInsights/Samples" />
+</manifest>

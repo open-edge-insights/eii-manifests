@@ -3,18 +3,7 @@
    <remote name="origin" fetch="https://github.com/open-edge-insights" />
    <default revision="master" remote="origin" sync-j="4" />
 
-   <!-- EII and its ingredient docs -->
-   <project name="eii-docs" path="Docs">
-      <linkfile src="README.md" dest="README.md"/>
-   </project>
+   !-- EII core services -->
+   <include name="include/base_eii.xml" />
 
-   <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" />
-
-   <!-- EII core libraries -->
-   <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
-   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" />
-
-   <!-- EII Sample Apps -->
-   <project name="eii-samples" path="IEdgeInsights/Samples" />
 </manifest>
