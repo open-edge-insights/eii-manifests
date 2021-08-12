@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial" />
-   <default revision="master" remote="origin" sync-j="4" />
+   <default revision="feature/pumpkincreek" remote="origin" sync-j="4" />
 
    <!-- EII core services -->
    <include name="include/base_eii.xml" />
