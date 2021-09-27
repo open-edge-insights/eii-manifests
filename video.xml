@@ -14,6 +14,8 @@
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
+   <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend"  revision="master" />
+   <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
    <!-- End: Optional EII services for video use case (uncomment the ones required) -->
 
 </manifest>
