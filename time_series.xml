@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="https://github.com/open-edge-insights" />
-   <default revision="refs/tags/v2.5" remote="origin" sync-j="4" />
+   <default revision="refs/tags/v2.5.2" remote="origin" sync-j="4" />
 
    <!-- EII and its ingredient docs -->
-   <project name="eii-docs" path="Docs" revision="refs/tags/v2.5.1">
+   <project name="eii-docs" path="Docs">
       <linkfile src="README.md" dest="README.md"/>
    </project>
 
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v2.5.1" />
+   <project name="eii-core" path="IEdgeInsights" />
 
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
