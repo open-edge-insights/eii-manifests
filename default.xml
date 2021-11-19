@@ -4,12 +4,12 @@
    <default revision="refs/tags/v2.5" remote="origin" sync-j="4" />
 
    <!-- EII and its ingredient docs -->
-   <project name="eii-docs" path="Docs">
+   <project name="eii-docs" path="Docs" revision="refs/tags/v2.5.1">
       <linkfile src="README.md" dest="README.md"/>
    </project>
 
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" />
+   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v2.5.1"/>
 
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
