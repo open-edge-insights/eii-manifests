@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="origin-gitlab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial" />
+   <default revision="feature/pumpkincreek" remote="origin-gitlab" sync-j="4" />
+
+    <!-- Basic-UWc services -->
+   <include name="include/base_uwc.xml" />
+
+</manifest>
