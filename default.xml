@@ -24,6 +24,7 @@
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
+   <project name="video-analytics-serving" path="IEdgeInsights/VideoAnalyticsServing" />
    <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" revision="master" />
    <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
    <!-- End: EII services -->
