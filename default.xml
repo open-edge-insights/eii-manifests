@@ -9,7 +9,7 @@
    </project>
 
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" />
+   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v2.5.3"/>
 
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
