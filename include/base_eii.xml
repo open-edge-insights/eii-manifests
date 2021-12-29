@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights"/>
+   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v2.6.2" />
 
    <!-- EII EtcdUI service -->
    <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI"/>

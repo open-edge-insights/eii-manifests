@@ -8,6 +8,6 @@
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
    <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
-   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <project name="eii-tools" path="IEdgeInsights/tools" revision="refs/tags/v2.6.2"/>
    <!-- End: EII services for timeseries use case -->
 </manifest>

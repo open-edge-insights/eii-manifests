@@ -22,7 +22,7 @@
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
-   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <project name="eii-tools" path="IEdgeInsights/tools" revision="refs/tags/v2.6.2"/>
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
    <!-- End: EII services -->
 

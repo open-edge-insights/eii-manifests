@@ -10,6 +10,6 @@
    <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
    <project name="video-custom-udfs" path="IEdgeInsights/CustomUdfs" />
-   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <project name="eii-tools" path="IEdgeInsights/tools" revision="refs/tags/v2.6.2"/>
    <!-- End: EII services for video use case -->
 </manifest>
