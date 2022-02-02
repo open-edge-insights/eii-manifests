@@ -10,6 +10,7 @@
    <project name="video-analytics-serving" path="IEdgeInsights/VideoAnalyticsServing" />
    <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
+   <project name="ts-grafana" path="IEdgeInsights/Grafana" />
    <project name="video-custom-udfs" path="IEdgeInsights/CustomUdfs" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <!-- End: EII services for video use case -->
