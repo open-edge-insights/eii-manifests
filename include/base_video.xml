@@ -7,7 +7,7 @@
    <project name="video-common" path="IEdgeInsights/common/video" />
    <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
    <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
-   <project name="video-analytics-serving" path="IEdgeInsights/VideoAnalyticsServing" />
+   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/DLStreamerPipelineServer" revision="master" />
    <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />

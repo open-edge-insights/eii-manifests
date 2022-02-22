@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial" />
+   <remote name="github-origin" fetch="https://github.com/intel" />
+   
    <default revision="feature/pumpkincreek" remote="origin" sync-j="4" />
 
    <!-- EII core services -->
@@ -24,7 +26,7 @@
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
-   <project name="video-analytics-serving" path="IEdgeInsights/VideoAnalyticsServing" />
+   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/DLStreamerPipelineServer" revision="master" />
    <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" revision="master" />
    <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
    <!-- End: EII services -->
