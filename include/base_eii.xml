@@ -16,7 +16,6 @@
 
    <!-- EII config agent service -->
    <project name="eii-configmgr-agent" path="IEdgeInsights/ConfigMgrAgent"/>
-   
    <!-- EII Sample Apps -->
    <project name="eii-samples" path="IEdgeInsights/Samples" />
 </manifest>
