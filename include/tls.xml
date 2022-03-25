@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Start: EII TLS Ingredient components -->
+   <project name="non-opensource/ingredients/video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
+   <project name="non-opensource/ingredients/training-and-learning-suite" path="training-and-learning-suite" />   
+   <!-- End: EII TLS Ingredient components -->
+
+</manifest>

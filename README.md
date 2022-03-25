@@ -16,12 +16,16 @@ For EII code base in multi-repo, below are the commands one needs to run which
 in essence is similar to git cloning of mono-repo to pull out the required
 source code.
 
-1. **Installing repo tool**
+> **NOTE**: As pre-requisite tools to use `repo` tool, please run the below command:
+>           `sudo apt-get update && sudo apt-get install -y curl git` to install them 
+>           if they are not already installed.
 
+1. **Installing repo tool**
+  
    ```sh
-   $ curl https://storage.googleapis.com/git-repo-downloads/repo > repo
-   $ sudo mv repo /bin/repo
-   $ sudo chmod a+x /bin/repo
+   curl https://storage.googleapis.com/git-repo-downloads/repo > repo
+   sudo mv repo /bin/repo
+   sudo chmod a+x /bin/repo
    ```
 
 2. **Pulling in the eii-manifests repo and using a manifest file**
@@ -29,14 +33,18 @@ source code.
    * Create a working directory
 
      ```sh
-     $ mkdir -p <work-dir>
+     mkdir -p <work-dir>
      ```
 
    * Initialize the repository using `repo` tool.
 
+     > **NOTE**: If one encounters issue like `/usr/bin/env: 'python': No such file or directory` while executing
+     >           below command, please set the soft link to python3 by running `sudo ln -sf /usr/bin/python3 /usr/bin/python`
+     >           command and re-run the below command again to not see the issue.
+
      ```sh
-     $ cd <work-dir>
-     $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
+     cd <work-dir>
+     repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
      ```
 
      This will create a .repo folder with `eii-manifests` source code
@@ -61,7 +69,7 @@ source code.
         `Using a developer manifest branch to point to developer branch/s in multi-repo
 
         ```sh
-        $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git" -b <manifest_branch_name>
+        repo init -u "https://github.com/open-edge-insights/eii-manifests.git" -b <manifest_branch_name>
         ```
 
         In above command, `manifest_branch_name` refers to remote branch in `eii-manifests`
@@ -72,7 +80,7 @@ source code.
         run the below command:
 
         ```sh
-        $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
+        repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
         ```
     ----
 
@@ -80,20 +88,20 @@ source code.
      the contents of `default.xml` as that is been chosen by default)
 
      ```sh
-     $ repo manifest
+     repo manifest
      ```
 
    * Choosing a different manifest file
 
      ```sh
-     $ repo init -m <manifest_file>
+     repo init -m <manifest_file>
      ```
 
      Below are the various `manifest_file` values for the above command:
 
      * [default.xml](./default.xml): **All recipe (default)**:
 
-       Recipe has Vision + Timeseries + EII ingredient services
+       Recipe has Vision + Timeseries services
 
      * [core.xml](./core.xml): **Bare minimum recipe**
 
@@ -106,7 +114,19 @@ source code.
 
      * [time_series.xml](./time_series.xml): **Timeseries recipe**
 
-       Recipe has EII Bare minimum recipe + time series services
+       Recipe has EII Bare minimum recipe + time series services 
+
+     * [ingredients/default.xml](./ingredients/default.xml): **All recipe**:
+
+       Recipe has Vision + Timeseries + EII ingredient services
+
+     * [ingredients/video.xml](./ingredients/video.xml): **Vision recipe**
+
+       Recipe has EII Bare minimum recipe + vision services + EII ingredient services
+
+     * [ingredients/time_series.xml](./ingredients/time_series.xml): **Timeseries recipe**
+
+       Recipe has EII Bare minimum recipe + time series services + EII ingredient services
 
       > **NOTE**:
       > One can create his/her own manifest file with the combination of projects
@@ -121,7 +141,7 @@ source code.
    default/specific revision mentioned for each project**
 
     ```sh
-    $ repo sync
+    repo sync
     ```
 
     > **NOTE**:
@@ -130,4 +150,3 @@ source code.
     > intention is to work with that particular recipe
 
 4. **Refer [eii-core repo README.md](https://github.com/open-edge-insights/eii-core/blob/master/README.md) to provision, build and run EII stack**
-

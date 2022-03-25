@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
    <!-- EII core service -->
    <project name="eii-core" path="IEdgeInsights"/>
 
@@ -9,7 +10,12 @@
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
    <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus"/>
+   <project name="eii-messagebus-go" path="IEdgeInsights/common/libs/EIIMessageBus/go/EIIMessageBus"/>
+   <project name="eii-configmgr" path="IEdgeInsights/common/libs/ConfigMgr"/>
+   <project name="eii-configmgr-go" path="IEdgeInsights/common/libs/ConfigMgr/go/ConfigMgr"/>
 
+   <!-- EII config agent service -->
+   <project name="eii-configmgr-agent" path="IEdgeInsights/ConfigMgrAgent"/>
    <!-- EII Sample Apps -->
    <project name="eii-samples" path="IEdgeInsights/Samples" />
 </manifest>

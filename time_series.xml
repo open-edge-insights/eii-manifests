@@ -3,13 +3,15 @@
    <remote name="origin" fetch="https://github.com/open-edge-insights" />
    <default revision="master" remote="origin" sync-j="4" />
 
-    <!-- EII core services with timeseries use case -->
+   <!-- EII core services with timeseries use case -->
    <include name="include/base_time_series.xml" />
 
    <!-- Start: Optional EII services for timeseries use case (Comment the ones not required) -->
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
+   <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" revision="master" />
+   <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
    <!-- End: Optional EII services for timeseries use case (Comment the ones not required) -->
 
 </manifest>
