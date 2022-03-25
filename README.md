@@ -44,7 +44,7 @@ source code.
 
      ```sh
      cd <work-dir>
-     repo init -u "ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial/eii-manifests"
+     repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
      ```
 
      This will create a .repo folder with `eii-manifests` source code
@@ -69,7 +69,7 @@ source code.
         `Using a developer manifest branch to point to developer branch/s in multi-repo
 
         ```sh
-        repo init -u "ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial/eii-manifests" -b <manifest_branch_name>
+        repo init -u "https://github.com/open-edge-insights/eii-manifests.git" -b <manifest_branch_name>
         ```
 
         In above command, `manifest_branch_name` refers to remote branch in `eii-manifests`
@@ -80,7 +80,7 @@ source code.
         run the below command:
 
         ```sh
-        repo init -u "ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial/eii-manifests"
+        repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
         ```
     ----
 
@@ -149,5 +149,5 @@ source code.
     > pull the source code for that particular recipe/manifest if the
     > intention is to work with that particular recipe
 
-4. **Refer [README.md](https://gitlab.devtools.intel.com/Indu/edge-insights-industrial/eii-core/-/blob/master/README.md) to provision, build and run EII stack**
+4. **Refer [README.md](https://github.com/open-edge-insights/eii-core/blob/master/README.md) to provision, build and run EII stack**
 

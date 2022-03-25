@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial" />
+   <remote name="origin" fetch="https://github.com/open-edge-insights" />
    <remote name="github-origin" fetch="https://github.com/intel" />
    
-   <default revision="feature/pumpkincreek" remote="origin" sync-j="4" />
+   <default revision="master" remote="origin" sync-j="4" />
 
    <!-- EII core services with video use case -->
    <include name="include/base_video.xml" />
