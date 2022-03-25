@@ -26,7 +26,7 @@
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
-   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/DLStreamerPipelineServer" revision="master" />
+   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/EdgeVideoAnalyticsMicroservice" revision="master" />
    <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" revision="master" />
    <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
    <!-- End: EII services -->
