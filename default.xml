@@ -3,7 +3,7 @@
    <remote name="origin" fetch="https://github.com/open-edge-insights" />
    <remote name="github-origin" fetch="https://github.com/intel" />
    
-   <default revision="master" remote="origin" sync-j="4" />
+   <default revision="refs/tags/v3.0" remote="origin" sync-j="4" />
 
    <!-- EII core services -->
    <include name="include/base_eii.xml" />
@@ -26,9 +26,9 @@
    <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
-   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/EdgeVideoAnalyticsMicroservice" revision="master" />
-   <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" revision="master" />
-   <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" revision="master" />
+   <project name="edge-video-analytics-microservice" remote="github-origin" path="IEdgeInsights/EdgeVideoAnalyticsMicroservice" revision="refs/tags/v0.7.0" />
+   <project name="eii-deployment-tool-frontend" path="IEdgeInsights/DeploymentToolFrontend" />
+   <project name="eii-deployment-tool-backend" path="IEdgeInsights/DeploymentToolBackend" />
    <!-- End: EII services -->
 
 </manifest>
