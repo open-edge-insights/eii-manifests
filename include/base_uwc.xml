@@ -2,7 +2,7 @@
 <manifest>
    <!-- EII core services -->
    <include name="include/base_eii.xml" />
-   <remote name="origin" fetch="https://github.com/open-edge-insights" revision="develop" />
+   <remote name="origin" fetch="https://github.com/open-edge-insights" revision="master" />
 
    <!-- Start: EII & UWC services that is needed for all UWC use cases-->
    <project name="uwc" path="IEdgeInsights/uwc" remote="origin"/>
