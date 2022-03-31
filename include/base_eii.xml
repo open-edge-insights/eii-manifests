@@ -2,20 +2,20 @@
 <manifest>
 
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights"/>
+   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v3.0" />
 
    <!-- EII EtcdUI service -->
-   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI"/>
+   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI" revision="refs/tags/v3.0" />
 
    <!-- EII core libraries -->
-   <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
-   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus"/>
-   <project name="eii-messagebus-go" path="IEdgeInsights/common/libs/EIIMessageBus/go/EIIMessageBus"/>
-   <project name="eii-configmgr" path="IEdgeInsights/common/libs/ConfigMgr"/>
-   <project name="eii-configmgr-go" path="IEdgeInsights/common/libs/ConfigMgr/go/ConfigMgr"/>
+   <project name="eii-c-utils" path="IEdgeInsights/common/util/c" revision="refs/tags/v3.0" />
+   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" revision="refs/tags/v3.0" />
+   <project name="eii-messagebus-go" path="IEdgeInsights/common/libs/EIIMessageBus/go/EIIMessageBus" revision="refs/tags/v3.0" />
+   <project name="eii-configmgr" path="IEdgeInsights/common/libs/ConfigMgr" revision="refs/tags/v3.0" />
+   <project name="eii-configmgr-go" path="IEdgeInsights/common/libs/ConfigMgr/go/ConfigMgr" revision="refs/tags/v3.0" />
 
    <!-- EII config agent service -->
-   <project name="eii-configmgr-agent" path="IEdgeInsights/ConfigMgrAgent"/>
+   <project name="eii-configmgr-agent" path="IEdgeInsights/ConfigMgrAgent" revision="refs/tags/v3.0" />
    <!-- EII Sample Apps -->
-   <project name="eii-samples" path="IEdgeInsights/Samples" />
+   <project name="eii-samples" path="IEdgeInsights/Samples" revision="refs/tags/v3.0" />
 </manifest>
