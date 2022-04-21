@@ -2,11 +2,11 @@
 <manifest>
    <!-- EII core services -->
    <include name="include/base_eii.xml" />
-   <remote name="origin" fetch="https://github.com/open-edge-insights" revision="develop" />
+   <remote name="origin" fetch="https://github.com/open-edge-insights" revision="refs/tags/v2.0" />
 
    <!-- Start: EII & UWC services that is needed for all UWC use cases-->
    <project name="uwc" path="IEdgeInsights/uwc" remote="origin"/>
-   <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
+   <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" revision="refs/tags/v3.0"  />
    <!-- End: EII & UWC services that is needed for all UWC use cases -->
 </manifest>
 

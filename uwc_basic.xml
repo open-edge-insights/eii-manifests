@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-   <remote name="origin-gitlab" fetch="https://github.com/open-edge-insights" />
-   <default revision="master" remote="origin-gitlab" sync-j="4" />
-
-    <!-- Basic-UWc services -->
-   <include name="include/base_uwc.xml" />
-
-</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <default revision="refs/tags/v3.0" remote="origin" sync-j="4" />
+
+   <!-- START Basic-UWc services -->
+   <include name="include/base_uwc.xml" />
+    <!-- END Basic-UWc services -->
+
+   <!-- START UWC data persistence specific services -->
+   <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" revision="refs/tags/v3.0" />
+   <project name="ts-telegraf" path="IEdgeInsights/Telegraf" revision="refs/tags/v3.0" />
+   <project name="eii-tools" path="IEdgeInsights/tools" revision="refs/tags/v3.0" />
+   <!-- END UWC data persistence specific services -->
+
+</manifest>
